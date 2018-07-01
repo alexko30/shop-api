@@ -24,6 +24,8 @@
     "nodemon": "^1.17.5"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
   }
 }
