@@ -1,0 +1,29 @@
+{
+  "name": "shop-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/server.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexko30/shop-api.git"
+  },
+  "author": "Alex Kornienko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexko30/shop-api/issues"
+  },
+  "homepage": "https://github.com/alexko30/shop-api#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/node": "^7.0.0-beta.51",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
